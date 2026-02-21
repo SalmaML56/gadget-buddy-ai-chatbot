@@ -5,9 +5,10 @@ import urllib.parse
 from google import genai
 
 # --- 1. CORE SETTINGS ---
-API_KEY = "AIzaSyAPgtBpY34NkG8ejE3klaCIUbnz2-JP1n4" 
-MY_WHATSAPP = "9230320003449" 
-ADMIN_PASSWORD = "salma_private_key_786" 
+API_KEY = "use api_key here " 
+MY_WHATSAPP = "add your whatsapp number here" 
+ADMIN_PASSWORD = "add your admin_password here "
+
 
 client = genai.Client(api_key=API_KEY)
 
@@ -174,5 +175,6 @@ if user_input := st.chat_input("Inquire about prices or ask for owner..."):
             msg = f"Inquiry from {st.session_state.name} ({st.session_state.phone}): {user_input}"
             url = f"https://wa.me/{MY_WHATSAPP}?text={urllib.parse.quote(msg)}"
             st.markdown(f'<a href="{url}" target="_blank" class="wa-link">📲 Connect with Owner</a>', unsafe_allow_html=True)
+
 
     st.session_state.messages.append({"role": "assistant", "content": answer})
