@@ -5,7 +5,7 @@ import urllib.parse
 from google import genai
 
 # --- 1. CORE SETTINGS ---
-API_KEY = "use api_key here " 
+API_KEY = "Add your Google Gemini API " 
 MY_WHATSAPP = "add your whatsapp number here" 
 ADMIN_PASSWORD = "add your admin_password here "
 
@@ -178,3 +178,4 @@ if user_input := st.chat_input("Inquire about prices or ask for owner..."):
 
 
     st.session_state.messages.append({"role": "assistant", "content": answer})
+
