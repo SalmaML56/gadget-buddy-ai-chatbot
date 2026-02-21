@@ -1,0 +1,8 @@
+GADGET BUDDY SHOP INVENTORY:
+
+- iPhone 13: Price 160,000 PKR. Status: Cheapest in stock.
+- iPhone 15 Pro: Price 380,000 PKR. Best camera for photography.
+- Samsung S24 Ultra: Price 390,000 PKR. Available in Titanium Gray and Black.
+- MacBook Air M2: Price 280,000 PKR. 8GB RAM.
+- MacBook Air M3: Price 340,000 PKR. 8GB RAM. (Difference: 60k).
+- MacBook Pro 14-inch: Price 450,000 PKR. 16GB RAM, 512GB SSD. Recommended for Video Editing.
